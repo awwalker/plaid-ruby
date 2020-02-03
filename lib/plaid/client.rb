@@ -79,6 +79,11 @@ module Plaid
 
     ##
     # :attr_reader:
+    # Public: The Plaid::Liabilities product accessor.
+    subproduct :liabilities
+
+    ##
+    # :attr_reader:
     # Public: The Plaid::Processor product accessor.
     subproduct :processor
 
@@ -96,6 +101,16 @@ module Plaid
     # :attr_reader:
     # Public: The Plaid::Investments product accessor.
     subproduct :investments
+
+    ##
+    # :attr_reader:
+    # Public: The Plaid::PaymentInitiation product accessor.
+    subproduct :payment_initiation
+
+    ##
+    # :attr_reader:
+    # Public: The Plaid::Webhooks endpoint accessor.
+    subproduct :webhooks
 
     # Public: Make a post request
     #

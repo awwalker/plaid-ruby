@@ -1,3 +1,28 @@
+# 8.4.0 23-Jan-2020
+
+* Add support for new UK Payment Initiation product ([#246](https://github.com/plaid/plaid-ruby/pull/246))
+  * `/payment_initiation/recipient/create`
+  * `/payment_initiation/recipient/get`
+  * `/payment_initiation/recipient/list`
+  * `/payment_initiation/payment/create`
+  * `/payment_initiation/payment/token/create`
+  * `/payment_initiation/payment/get`
+  * `/payment_initiation/payment/list`
+* Add `consent_expiration_time` to the Item interface ([#247](https://github.com/plaid/plaid-ruby/pull/247))
+
+
+# 8.3.0 17-Sep-2019
+
+* Add support for new [Ocrolus Partnership](https://plaid.com/docs/ocrolus/)
+
+# 8.2.0 16-Sep-2019
+
+* Update Assets schema for international address support
+
+# 8.1.0 23-Jul-2019
+
+* Add binding for the new [liabilities product](https://plaid.com/docs/api/#liabilities)
+
 # 8.0.0 19-Jun-2019
 
 * Deprecate direct integration as it is no longer supported
